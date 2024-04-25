@@ -31,7 +31,7 @@ body {
     flex-direction: column;
     
     text-align: center;
-    margin-left: 700px;
+    margin-left: 500px;
     
 }
 
@@ -55,3 +55,24 @@ body {
     align-items: center;
     justify-content: right;
 }
+
+ 
+
+.button_js {
+    text-align: center;
+}
+#myButton{
+    border: none;
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+    background-color: #64db5a;
+    color: #ffffff;
+    font-weight: bold;
+}
+#dome img {
+    margin-top: 20px;
+    width: 25%;
+}
+
+
