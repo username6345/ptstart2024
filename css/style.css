@@ -1,0 +1,57 @@
+body {
+    background-color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+    color: #d3e9bf;
+
+}
+.nav_bar {
+}
+.container {
+    margin-top: 30px;
+}
+.row {
+}
+.col-8 {
+}
+.col-4 {
+}
+.col-3.nav_logo {
+}
+.col-9 {
+}
+.nav_text {
+}
+.img_size {
+}
+.title_photo {
+}
+
+.col-6 {
+    display: flex;
+    flex-direction: column;
+    
+    text-align: center;
+    margin-left: 700px;
+    
+}
+
+.my_photo {
+    background: url(../photo/photo1.png) no-repeat center center;
+    background-size: cover;
+    width: 1000px;
+    height: 1000px;
+}
+
+.nav_logo {
+    background: url(../photo/logo.svg.png) no-repeat center center;
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+
+}
+
+.nav_text{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
