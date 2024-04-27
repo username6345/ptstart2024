@@ -2,37 +2,44 @@ body {
     background-color: #000000;
     font-family: 'Courier New', Courier, monospace;
     color: #d3e9bf;
-
 }
+
 .nav_bar {
 }
+
 .container {
     margin-top: 30px;
 }
+
 .row {
 }
+
 .col-8 {
 }
+
 .col-4 {
 }
+
 .col-3.nav_logo {
 }
+
 .col-9 {
 }
+
 .nav_text {
 }
+
 .img_size {
 }
+
 .title_photo {
 }
 
 .col-6 {
     display: flex;
     flex-direction: column;
-    
     text-align: center;
     margin-left: 500px;
-    
 }
 
 .my_photo {
@@ -47,21 +54,19 @@ body {
     background-size: 100%;
     width: 50px;
     height: 50px;
-
 }
 
-.nav_text{
+.nav_text {
     display: flex;
     align-items: center;
     justify-content: right;
 }
 
- 
-
 .button_js {
     text-align: center;
 }
-#myButton{
+
+#myButton {
     border: none;
     border-radius: 15px;
     width: 150px;
@@ -70,9 +75,14 @@ body {
     color: #ffffff;
     font-weight: bold;
 }
-#dome img {
+
+#demo img {
     margin-top: 20px;
     width: 25%;
 }
+
+
+
+
 
 

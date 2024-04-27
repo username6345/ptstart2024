@@ -27,9 +27,9 @@
         $link = mysqli_connect('127.0.0.1', 'root' ,'kali','first');
 
         $sql = "SELECT * FROM posts";
-        $rese = mysqli_query($link, $sql);
+        $res = mysqli_query($link, $sql);
         if (mysqli_num_rows($res) >  0){
-            while ($post - mysqli_fetch_array($res)){
+            while ($post = mysqli_fetch_array($res)){
                 echo "<a href='/posts.php?id=" . $post["id"] . "'>". $post['title'] . "</a><br>";
             }
 
