@@ -47,7 +47,7 @@ if (isset($_POST['submit']))
 
   if(mysqli_num_rows($result) == 1) {
     setcookie("User", $username ,time()+7200);
-    header('Location:file1.html');
+    header('Location:profile.php');
   }else {
     echo "Не удалось добавить пользователя";
   }
